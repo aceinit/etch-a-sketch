@@ -18,11 +18,19 @@ body {
 
 .grid-cont {
   display: flex;
-  flex-direction: column;
-
+  width: 500px;
+  height: 500px;
+  flex-wrap: wrap;
+  margin: 40px;
  }
 
  .squares {
    background-color: white;
    display: flex;
+   width: 30px;
+   height: 30px;   
+ }
+
+ .squares:hover {
+   filter: brightness(90%);
  }
