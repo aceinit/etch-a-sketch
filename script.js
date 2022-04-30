@@ -13,6 +13,7 @@ function createOrigin() {
   for (let i = 0; i <= 256; i++) {
     grid.appendChild(squares.cloneNode());
     squares.classList.add("squares");  
+    
   }
 }
 
