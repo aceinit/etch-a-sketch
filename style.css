@@ -1,36 +1,14 @@
-body {
- background-color: rgb(76, 72, 72);
- color: white;
- font-family: Arial, Helvetica, sans-serif;
-}
-
-.main {
+.flex-container {
   display: flex;
-  align-items: center;
+  width: 100vw;
+  height: 100vh;
   flex-direction: column;
-  height: 1000px;
+  background: linear-gradient(rgba(96, 79, 252, 0.082), white);
 }
 
-.btn-cont {
-  display: flex;
-  flex-direction: column;
+
+.board {
+  width: 80%;
+  height: 80%;
+  display: grid;
 }
-
-.grid-cont {
-  display: flex;
-  width: 500px;
-  height: 500px;
-  flex-wrap: wrap;
-  margin: 40px;
- }
-
- .squares {
-   background-color: white;
-   display: flex;
-   width: 30px;
-   height: 30px;   
- }
-
- .squares:hover {
-   filter: brightness(90%);
- }
